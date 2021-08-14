@@ -2,6 +2,7 @@ extern crate rust_modules;
 
 mod a;
 mod aa;
+mod path;
 
 use rust_modules::*;
 
