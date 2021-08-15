@@ -5,6 +5,8 @@ mod aa;
 mod path;
 mod use_;
 
+use rust_modules_dependency;
+
 fn main() {
     a::item();
     a::b::item();
@@ -27,4 +29,6 @@ fn main() {
     // error
     // rust_modules::aa::item();
     rust_modules::b::item();
+
+    rust_modules_dependency::item();
 }

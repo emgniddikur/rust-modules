@@ -5,3 +5,11 @@ version = 3
 [[package]]
 name = "rust-modules"
 version = "0.1.1"
+dependencies = [
+ "rust-modules-dependency",
+]
+
+[[package]]
+name = "rust-modules-dependency"
+version = "0.1.0"
+source = "git+https://github.com/emgniddikur/rust-modules-dependency#9958dcb4b35ad8b06640ced9fd445ef2a6bb49f9"
