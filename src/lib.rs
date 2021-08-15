@@ -5,7 +5,13 @@ pub fn item() {}
 
 pub mod aaa {
     pub fn item() {}
+
+    pub mod b {
+        pub fn item() {}
+    }
 }
+
+pub use aaa::b;
 
 pub mod a;
 

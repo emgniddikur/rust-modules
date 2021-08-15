@@ -26,4 +26,5 @@ fn main() {
     rust_modules::a::item();
     // error
     // rust_modules::aa::item();
+    rust_modules::b::item();
 }
