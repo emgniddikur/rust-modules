@@ -1,5 +1,6 @@
 [workspace]
 
 members = [
-    "binary"
+    "binary",
+    "library1",
 ]
