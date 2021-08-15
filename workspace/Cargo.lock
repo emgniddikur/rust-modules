@@ -5,6 +5,9 @@ version = 3
 [[package]]
 name = "binary"
 version = "0.1.0"
+dependencies = [
+ "library1",
+]
 
 [[package]]
 name = "library1"

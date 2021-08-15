@@ -1,3 +1,5 @@
+use library1;
+
 fn main() {
-    println!("Hello, world!");
+    library1::item();
 }
