@@ -1,7 +1,5 @@
 #![allow(dead_code, unused_imports)]
 
-extern crate rust_modules;
-
 mod a;
 mod aa;
 mod path;
