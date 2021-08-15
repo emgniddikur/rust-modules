@@ -3,4 +3,5 @@
 members = [
     "binary",
     "library1",
+    "library2",
 ]
