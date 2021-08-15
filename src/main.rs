@@ -7,8 +7,6 @@ mod aa;
 mod path;
 mod use_;
 
-use rust_modules::*;
-
 fn main() {
     a::item();
     a::b::item();
@@ -18,9 +16,12 @@ fn main() {
     aa::bb::item();
     aa::bb::c::item();
 
-    // rust_modules
-    item();
-    aaa::item();
+    {
+        use rust_modules::*;
+
+        item();
+        aaa::item();
+    }
 
     rust_modules::item();
     rust_modules::aaa::item();
